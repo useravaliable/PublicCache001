@@ -1,0 +1,1667 @@
+history
+cd
+l
+rm fork-staging-stack.pem
+cat config
+rm id_rsa
+rm id_rsa.pub
+cat id_rsa.pub
+cd .ssh
+git remote add PublicCache001 https://github.com/useravaliable/PublicCache001.git
+git init
+cd dong/
+mkdir dong
+cd ..
+cd work_design/
+cd rails/
+cd work/
+ruby
+cd ../default_form
+cd default_where/
+cd ../ruby/
+cd engine/
+git push
+git commit -m 'support array filter'
+bundle i
+cd fork/fork-stack/
+cd fork/fork-
+cd ../..
+git commit -m 'add comment'
+cd ruby/default_where
+cd rails_wechat/
+git commit -m '210717'
+git satus
+git sttus
+git tatus
+git commit -m 'fix many pages'
+cd rails_data
+git push gitee
+git remote add gitee git@gitee.com:work-design/rails_finance.git
+git subtree pull --prefix=.github git@github.com:work-design/.github.git master
+git commit -m 'update dummy'
+git remote add gitee git@gitee.com:qinmingyuan/default_form.git
+cd test/dummy/
+git submodule update --init
+git commit -m 'update license'
+bundle u
+cd default_form
+code .
+git commit -m 'imporve engine ppt'
+cd home/
+cd doc
+git commit -m 'gemfile'
+gits tatus
+git checkout HEAD -- Gemfile.lock
+bundle u rails
+cd rails/work_design/
+cd rails_crm
+git commit -m 'license'
+cd ../rails_interact/
+git commit -m 'lincesn'
+cd rails_markdown
+cd rails_profile/
+psql forkai2_development
+git commit -m 'license updated'
+cd rails_finance/
+docker-compose up
+git commit -m 'routes'
+bin/rails routes | grep api/products
+bin/rails routes | grep products
+bin/rails s
+git checkout -b export
+gitstatus
+bin/vite
+yarn install
+git remote prune origin
+git branch -d api
+git checkout main
+git commit -m 'services'
+bin/rails test
+git commit -m 'added comment'
+git commit -m 'fix test'
+bin/rails credentials:edit
+bin/rails credentials:show
+bin/rails credentials:show --environment test
+bin/rails credentials:show --environment development
+ping dashboard-app-server.staging.fork.ai
+bin/rails c
+cd fork-stack/
+cd rails
+cd work/fork/fork-stack/
+git commit -m 'fix rubocop'
+brew services start postgresql
+rubocop
+rubocop -a
+rubocop --help
+git commit -m 'fix rubycop'
+docker scan
+docker-compose build
+docker-compose down
+rm -rf tmp
+rm -rf .persistence/
+cd rails_com
+brew services stop postgresql
+git commit -m '210718'
+git commit -m 'add relation'
+cd rails_doc
+cd ../rails_data
+git commit -m 'server: 兼容原格式'
+cd work
+ssh -i .ssh/fork-staging-stack.pem fork-staging-stack@52.229.160.216
+chmod o-r ./fork-staging-stack.pem
+chmod g-r ./fork-staging-stack.pem
+chmod g-r o-r ./fork-staging-stack.pem
+cat fork-staging-stack.pem
+ssh --help
+git checkout api
+git commit -m 'product export'
+git commit -m 'intege rails data nav'
+cd ../rails_com
+git commit -m 'use lignth nav'
+git commit -m 'schema'
+rake db:migrate
+bin/rails g rails_com:migrations
+git statu
+git remote add gitee git@gitee.com:work-design/rails_data.git
+cd engine/rails_data
+bin/rails s -b 0.0.0.0 -p 3001
+rake db:seed
+rake db:create
+rake db:drop
+git commit -m 'merge main'
+bundle exec rake db:seed
+bundle exec rake db:migrate
+bundle exec rake db:create
+bundle exec rake db:drop
+git commit -m 'tags id as string'
+psql forkai_development
+psql -l
+git commit -m 'update schema'
+git ktatus
+bin/rails credentials:edit --environment development
+cd rails/fork-stack/
+git commit -m 'fix gemfiel.lock'
+git branch -d auto_doc
+git commit -m 'yarn lock'
+git merge auto_doc
+git stauts
+git commit -m 'use common key'
+git commit -m 'moved deploy.key'
+git stkatus
+git clone git@github.com:fork-ai/fork-stack.git
+git add .g
+cd fork-
+cat /Users/qmy/work/fork/fork-stack/tmp/pids/server.pid
+bin/rails s -p 3001 -b 0.0.0.0
+psql fork2_development
+psql
+irb
+bundle exec rake db:seeds
+bin/rails ss
+bin/railss s
+spring stop
+git commit -m 'fixed test'
+springs top
+bundle exec rake db:migrate:status
+bin/rails credentials:edit --environment test
+git commit -m 'credential'
+git commit -m 'merge main '
+git commit -m 'also support linux'
+rm config/viter.yml
+git checkout .
+git commit -m 'for test'
+bin/rails test test/controllers/auth/board
+git commit -m 'test account'
+git sktatus
+bin/rails test test/controllers/auth/board/accounts_controller_test.rb
+bin/rails routes | grep auth/board/accounts
+git commit -m 'board'
+bin/rails test test/controllers/auth/board/oauth_users_controller_test.rb
+bin/rails test test/controllers/auth/board/users_controller_test.rb
+bin/rails routes | grep auth/board/users
+bin/rails test test/controllers/auth/panel
+git commit -m 'fix authorized token'
+bin/rails test test/controllers/auth/panel/authorized_tokens_controller_test.rb
+git commit -m 'test accounts controller'
+bin/rails test test/controllers/auth/panel/accounts_controller_test.rb
+spring status
+git commit -m 'test sign controller'
+bin/rails test test/controllers/auth/sign_controller_test.rb
+bin/rails routes | grep auth/sign
+git commit -m 'auth users'
+git commit -m 'ignore viter .yml;
+
+'
+bin/rails test test/controllers/auth/panel/users_controller_test.rb
+bin/rails routes | grep auth/panel/users
+bin/rails routes | grep login
+rake routes | grep login
+cd rails_auth
+rails plugin new rails_markdown --full
+rails -v
+cd test/
+mkdir test
+bin/rails g rails_com:migrations -f
+cd credentials/
+cd rails_role
+cd config/credentials/
+cat development.yml.enc
+cat development.key.enc
+cat development.key
+cd test/dummy
+git clean -df
+cd ../rails_auth
+git commit -m 'fixtrues'
+bin/rails g scaffold_controller markdown/posts title markdown html
+bin/rails g test_unit:generator --help
+bin/rails g | grep fixture
+bin/rails g
+cd rails_ui
+git checkout auto_doc
+git commit -m 'update rails_com'
+git branch -D fix/docker
+git branch -d fix/docker
+git branch -d fix/order
+git didf
+rake -T
+ps aux | grep post
+cd work/fork/
+git commit -m 'fix menu title'
+git commit -m 'i18n'
+cd ../rails_role
+git commit -m 'navbar light'
+git commit -m 'navbar i18n'
+git commit -m 'top nav is dark'
+git commit -m 'default navbar is light'
+git commit -m 'droped nav under panel'
+cd fork-dashboard/
+cd fork/
+cat LICENSE
+cd ../rails_growth/
+cd rails_sync
+cd rails_spider
+git remote add gitee git@gitee.com:work-design/rails_event.git
+cd ../rails_event/
+git commit -m 'uipdate gemfile'
+git commit -m '210715'
+git remote add gitee git@gitee.com:work-design/rails_crm.git
+cd ../rails_crm
+git remote add gitee git@gitee.com:work-design/rails_notice.git
+cd ../rails_notice
+git commit -m 'update lichense'
+git commit -m 'readme'
+cd ../rails_factory/
+cd ../rails_wechat/
+git staus
+cd ../rails_org
+cd rails_bench
+git remote add gitee git@gitee.com:work-design/rails_trade.git
+git commit -m 'license year'
+cd rails_trade
+git commit -m 'home'
+git commit -m 'index '
+git commit -m 'add rule model'
+git commit -m 'depend turbo rails'
+git commit -m 'require turbo rails'
+cd engine/rails_com
+git commit -m 'default zh'
+git commit -m 'supported ui'
+git commit -m 'default struct'
+git commit -m 'no more api only'
+bin/rails routes | grep roles
+bin/rails routes | grep role
+git commit -m 'dummy'
+bin/rails db:migrate
+git commit -m 'test.key
+'
+cd engine/rails_role
+git remote add gitee git@gitee.com:work-design/dummy.git
+git commit -m 'upgrade some package'
+yarn upgrade
+yarn update
+rm config/webpacker.yml
+cd rails/dummy/
+cd ../rails_ui
+git commit -m 'use json type'
+git commit -m 'delete migration'
+git rm --cache -r db/*
+git rm --cache db/*
+git commit -m 'moved dev config to default'
+git rm --cache config/credentials/development.yml.enc
+bin/rails rails_com:migrations
+git subtree add --prefix=.github git@github.com:work-design/.github.git master
+git remote add gitee git@gitee.com:work-design/rails_doc.git
+cd .github
+git commit -m 'fix db config'
+git commit -m 'add db config'
+touch .keep
+cd log
+mkdir log
+git sattus
+cd work/engine/rails_doc
+code config
+cd .bundle
+git checkout -b auto_doc
+bin/rails test -v
+bin/rails tset
+bin/rails c -e test
+git commit -m 'add tech rails docs'
+cd docs
+git commit -m 'support api model'
+yarn run serve
+ps aux | grep nginx
+yarn run
+yarn run dev
+git checkout -t origin/feature/ruby-connection
+cd web
+git clone git@github.com:fork-ai/fork-dashboard.git
+mkdir fork
+git commit -m 'moved tzinfo, because we dont need to support windows'
+bundle platform
+psql fork_test-0
+brew services
+brew uninstall postgresql@12
+brew list
+brew list postgresql
+brew services --help
+brew info postgresql
+ps aux | grep postgres
+brew services cleanup
+brew services status postgresql
+brew services status
+git commit -m '210714'
+git rebase --abort
+git submodule update --rebase
+git commit -m 'moved current workflows'
+rm -rf .github
+cat database.yml
+cd db
+ps aux | grep posgres
+bin/rails db
+docker-compose --help
+git commit -m 'make docker ignore local config'
+bin/rails db:create
+git commit -m 'avoid constant load err'
+cd dummy/
+git commit -m 'test actions'
+git commit -m 'test host'
+git commit -m 'tested ports'
+git commit -m 'host is not local'
+git commit -m 'database'
+git commit -m 'update node version'
+node -v
+git commit -m 'ruby version 3.0.2'
+git commit -m 'moved unused files'
+bundle update rails
+git commit -m 'use database.yml'
+yarn add https://github.com/qinmingyuan/viter.git
+yarn remove webpack-cli
+yarn remove css-minimizer-webpack-plugin
+yarn remove @webpack-cli/serve
+yarn remove mini-css-extract-plugin
+yarn remove expose-loader
+yarn remove css-loader
+yarn remove postcss-loader
+yarn remove sass-loader
+yarn remove webpack-dev-server
+yarn remove @rails/webpacker
+git diff Gemfile.lock
+git subtree pull --help
+git commit -m 'merge'
+git commit -m 'reset order'
+git commit -m 'use postgresql with service'
+git subtree add --prefix=.github git@github.com:work-design/.github.git
+git subtree --help
+git commit -m 'moved submodule'
+cat .gitmodules
+git submodule deinit .github
+git submodule remove .github
+git commit -m 'test submodule with .github'
+cd workflows/
+git submodule add git@github.com:work-design/.github.git .github
+git commit -m 'temply move workflows'
+cd github
+cd com
+git merge --abort
+git commit -m 'test export postman'
+cd work/rails/fork-stack/
+cd files
+cd Postman/
+newman run Fork Source API
+newman run
+newman --help
+yarn global add newman
+yarn add newman -g
+git commit -m 'moved blank line'
+git commit -m 'add defined attribute'
+git commit -m 'combine migrations into one'
+git commit -m 'use rails 6.1.4'
+bundle update --source rails
+git commit -m 'test'
+bin/rails tst
+git commit -m 'config in current credential'
+git commit -m 'config'
+bundle exec rake db:fixtures:load
+bundle exec rake -T
+bundle exec rake db:fixtures:load --help
+rake db:seeds
+git commit -m 'update db config for test'
+git ad d.
+git commit -m 'reset credential'
+git checkout Gemfile.lock
+EDITOR='code --wait' bin/rails credentials:edit
+EDITOR= 'code --wait' bin/rails credentials:edit
+git commit -m 'disable rubocop in some case
+'
+git commit -m 'disable rubocop in some case'
+git commit -m 'fix rubycop case'
+git skktatus
+git commit -m 'fix many linter case'
+git commit -m 'disable some rules'
+git commit -m 'temply disalbe rubocop test files'
+cd work/l
+rbenv uninstall 3.0.1
+ruby -v
+git commit -m 'usemain credential'
+git commit -m 'avoid'
+rbenv global 3.0.2
+rbenv global 3.0.
+git commit -m 'moved unused column'
+bundle exec rake db:migrate:down:warehouse VERSION=20210709005914
+rake db:migrate:down:warehouse VERSION=20210709005914
+rbenv install 3.0.2
+cd .rbenv/plugins/ruby-build/
+rbenv versions
+git commit -m 'juse use origin docs'
+git commit -m 'direct find and create product related channel and publisher'
+git checkout Gemfile.loc
+pg_ctl stop
+git commit -m 'fix docker'
+git add Dockerfile
+git checkout -b fix/docker
+cd  /usr/local/bundle/cache/bundler/git
+git reset --hard HEAD~1
+git commit -m 'all use uuid if not uid'
+bin/spring status
+git branch -d master
+git checkout -t origin/main
+cd ruby/rails
+git commit -m 'id should be uuid or string'
+git commit -m 'protect repeat request in product c'
+git commit -m 'typo'
+git commit -m 'protect repeat via accepts nest attributes in product'
+git commit -m 'protect repeat in price create api'
+git commit -m 'return download counts'
+git commit -m 'save with same publisher by name'
+bundle exec rake db:migrate:up:warehouse VERSION=20210706142023
+bundle exec rake db:migrate:down:warehouse VERSION=20210706142023
+rake db:migrate:down:warehouse VERSION=20210706142023
+bundle -v
+bundle -V
+rake db:migrate:status
+bundle exec rake db:rollback:warehouse
+rake db:rollback:warehouse
+docker-compose u
+docker run -d -p 80:80 work/rails/fork-stack
+docker run -d -p 80:80 work/rails/fork-stack/
+docker run -d -p 80:80 ./fork-stack
+docker run -d -p 80:80 Dockerfile
+docker start
+docker --help
+brew install docker-compose
+brew info docker-compose
+git commit -m 'api'
+brew install docker
+brew info docker
+git commit -m 'run bundle install'
+git commit -m 'ingore development credential'
+git commit -m 'sep batch api'
+psql fork_development
+git commit -m 'merge confilict'
+cd rails_quip
+cd rails_markdown/
+cd rails_m
+cd shuren
+cd shuren/
+cd frp
+git add db/migrate/* -f
+gits tatsu
+git statsu
+git restore --staged .
+git commit -m 'moved .keep'
+git commit -m '210628'
+git submodule absorbgitdirs rails_markdown
+git submodule --help
+git submodule
+git submodule add git@github.com:work-design/rails_markdown.git rails_markdown
+git rm --cached rails_markdown
+git commit -m 'sql'
+git commit -m 'moved show'
+git commit -m 'get title'
+git commit -m 'update markdown'
+bundlei
+git commit -m 'application support breadcrumb'
+git commit -m 'add i18n file'
+git commit -m 'moved action new'
+git commit -m 'path params'
+git commit -m 'path'
+rails routes | grep posts
+rails routes | grep ssss
+rails routes | grep ss
+rails routes | grep markdown
+git commit -m 'add'
+cd post
+git commit -m 'use content for '
+git commit -m 'markdown
+'
+git commit -m 'html safe'
+git commit -m 'markdown'
+bin/rails g scaffold_controller markdown/admin/posts path title markdown html
+git commit -m 'update readme'
+git commit -m 'posts'
+git commit -m 'collect save result'
+git staut
+git commit -m 'test sync'
+git commit -m 'sync changes'
+cd post/
+cd doc/home
+git commit -m 'sync markdwon to sync'
+bin/rails g migration add_oid_to_posts
+git commit -m 'use reggued'
+git commit -m 'work design'
+brew install cmake
+brew info cmake
+brew install libgit2
+brew info libgit2
+git ls-files --help
+git cat-file --help
+git show --help
+git show 46058fa4086a53481b8fe9e048c66043a29a7151
+git show a05ef5f5e50aede681b0c577de0b9081139d8668
+git show
+git commit -m 'git cur works'
+git commit -m 'mark'
+git commit -m 'post'
+git commit -m 'git'
+bin/rails g migration add_git_to_posts
+bin/railsc
+git commit -m 'repo'
+git commit -m 'last'
+bin/rails g migration rename_last_commit_message
+cd ../rails_markdown/
+git commit -m 'fix nav'
+git commit -m 'changed vite'
+yarn upgrade viter
+yarn link viter
+git commit -m 'mig'
+git commit -m 'rename module'
+bin/rails g rails_com:rename_module
+git commit -m 'run migration'
+git commit -m 'model'
+git commit -m 'add resources'
+bin/rails g scaffold_controller markdown/admin/gits working_directory remote_url last_commit_at last_commit_message
+cp database.yml.example database.yml
+git commit -m 'update rails'
+git log  -- assets/wechat.jpg
+git log  -- ./assets/wechat.jpg
+git log -1  -- ./assets/wechat.jpg
+git log -1  -- ./README.md
+git log -1 --format="%ad" -- ./README.md
+git ls-files stack/how_to.md --debug
+git ls-files stack/how_to.md -debug
+git ls-files stack/how_to.md --help
+git ls-files stack/how_to.md -v
+git ls-files stack/how_to.md
+git ls-files
+irg
+git blame README.md
+git blame
+git blame --help
+cat .git
+git commit -m 'add sumodule posts'
+git submodule add git@github.com:work-design/home.git post
+cd home
+git remote add origin git@github.com:work-design/rails_markdown.git
+git commit -m 'add test dummy'
+git submodule add https://github.com/work-design/dummy.git test/dummy
+git submodule add test/dummy https://github.com/work-design/dummy.git
+rm -rf public/packs-dev/
+rm -rf public/packs
+git rm -rf public/packs
+git commit -m 'markdwon'
+git satu
+bin/rails
+git commit -m 'add gem desc'
+git commit -m 'project init'
+rm -rf dummy
+cd test
+cd status
+git commit -m 'logic'
+git ls
+git object
+gem install git
+git
+git commit -m 'vite'
+git commit -m 'merge gemfile'
+cd ruby/default_form
+cd engine/rails_ui
+bin/vite --force
+cd rails/shuren/
+exit
+cd .config
+cd ruby/viter
+git remote add gitee git@gitee.com:work-design/home.git
+git clone git@github.com:work-design/home.git
+cd handbook
+cd jekyll/
+git commit -m 'use vite
+'
+git commit -m 'add viter'
+yarn add viter
+git commit -m 'update yarn'
+git commit -m 'yarn install'
+cd zhifu
+git commit -m 'update'
+cd work/rails
+cd /
+pg_ctl -D /usr/local/var/postgres start
+brew postgresql-upgrade-database
+brew upgrade postgresql
+brew install postgresql
+brew services restart postgresql
+psql postgres
+git commit -m 'shuren'
+ssh ubuntu@work.design
+git commit -m 'auth'
+git commit -m 'use value'
+cd vendor/
+git commit -m 'updte auth'
+cd rails_event/
+cd rails_growth/
+cd rails_agency/
+cd rails_attend/
+cd rails_org
+git commit -m 'update visit'
+cd engine/rails_auth
+ssh-add ~/.ssh/id_rsa
+ssh-add -l
+yarn link
+git commit -m 'update config'
+git commit -m 'sidekiq'
+cd ../default_where
+git remote add gitee git@gitee.com:qinmingyuan/viter.git
+cd viter
+git clone git@github.com:qinmingyuan/viter.git
+cd ruby/
+git commit -m '210609'
+cd ../rails_attend/
+git push origin HEAD:master
+git commit -m 'template render '
+git commit -m 'vite helper
+'
+git commit -m 'moved babel config'
+git commit -m 'webpacker'
+git sitatus
+yarn add vite -D
+yarn remove cssnano
+git push origin
+git commit -m 'update gmefile'
+git pull gitee main
+git commit -m 'moved webpack'
+yarn link rails_ui
+cd pointcoo
+git clone git@github.com:kuajing100/pointcoo.git
+git submodule update
+git submodule update --base
+git commit -m 'update port'
+git commit -m 'update gmeilfe'
+git remote add gitee git@gitee.com:qinmingyuan/shuren.git
+bin/webpack-dev-server
+gti status
+git commit -m '210529'
+cd engine/rails_email/
+cd ../
+git submodule update --merge
+cd rails_factory/
+rebase --abort
+git rebase --continue
+git rebase --edit-todo
+git pick 67d0787
+git push gitee master
+git commit --amend
+git commit -m 'merged'
+git commit -m 'moved unused'
+git remote add gitee git@gitee.com:work-design/rails_factory.git
+git commit -m 'update gemfile'
+git commit -m 'rename'
+git clone git@github.com:yougexiangfa/shuren.git
+cd ../rails_interact
+git commit -m 'run migration for rename table'
+bin/rails g rails_com:rename_module -f
+git commit -m 'add warn'
+git commit -m 'generate migration'
+git commit -m 'migratei'
+git commit -m '200521'
+git remote add gitee git@gitee.com:work-design/rails_agency.git
+git commit -m 'agential'
+cd rails_agency
+cd rails_agen
+git commit -m 'ship'
+cd rails_ship
+git remote add gitee git@gitee.com:work-design/rails_interact.git
+git commit -m 'integer'
+cd rails_interact
+git remote add gitee git@gitee.com:work-design/rails_attend.git
+git commit -m 'attend'
+bin/rails g migration rename_tables_with_namespace
+cd rails_attend
+git commit -m 'update sql'
+cd default_where
+cd ../work_design/
+cd jifenzise/
+git commit -m '210506'
+git remote add gitee git@gitee.com:work-design/rails_bench.git
+git commit -m 'fix preview'
+git commit -m 'notify'
+git addd .
+git commit -m 'add previews'
+cd rails_email
+rails routes | grep subscriptions
+git commit -m 'sep phone and pc page'
+git commit -m 'add login by token'
+git commit -m 'use key value routes'
+git commit -m 'filter'
+git commit -m 'upgrade email'
+git commit -m 'log'
+git commit -m 'add email'
+git commit -m 'use'
+git commit -m 'show logs
+'
+git commit -m 'use mail from'
+cd ../rails_email
+git commit -m 'rename locals var'
+bin/rails g migration add_from_to_email_logs
+git commit -m 'save from'
+git commit -m 'add logs in admin'
+bin/rails g scaffold_controller email/admin/log mail_from mail_to sent_status sent_result created_at
+git commit -m 'add verify token'
+git commit -m 'update email'
+git commit -m 'update nav'
+git commit -m 'use navbar item'
+git commit -m 'class image'
+git commit -m 'image pack tag'
+scp -rv public/packs ubuntu@zhifu.one.work:web/zhifu/shared/public
+env RAILS_ENV=production rake webpacker:compile
+env RAILS_ENV=production rake webpacker:clobber
+git commit -m 'moved logo png'
+git commit -m 'jpg'
+git commit -m 'applicaiton'
+git commit -m 'add nav'
+git staltus
+git remote add gitee git@gitee.com:work-design/rails_email.git
+cd rails/zhifu
+ssh ubuntu@zhifu.one.work
+git commit -m 'update license note'
+git commit -m 'email'
+git commit -m 'fix typo'
+git commit -m 'lakala'
+git commit -m 'acts as list'
+git commit -m 'fix application mailer'
+git commit -m 'common mailer'
+bin/rails g migration add_subject_to_templates
+git commit -m 'support list'
+bin/rails g migration add_position_to_accounts
+git commit -m 'add position'
+bin/rails g migration add_position_to_templates
+git commit -m 'support resources'
+bin/rails g scaffold_controller email/subscription address state unsubscribe_at
+bin/rails g scaffold_controller email/panel/subscription address state unsubscribe_at
+git commit -m 'blob data url'
+git commit -m 'show image'
+git commit -m 'template'
+git commit -m 'add attr'
+git commit -m 'add email templates'
+bin/rails g scaffold_controller email/admin/template honorific body order_prefix cover
+cd ../../engine/rails_email/
+git commit -m 'add template'
+cd engine/rails_email
+bin/rails g migration create_email_templates
+git commit -m 'use common notifier'
+git commit -m 'logs'
+git commit -m 'logs without new button'
+git commit -m 'use com application'
+git commit -m '210430'
+cd rails_med
+cd rails_media
+cd .
+git commit -m 'support filter'
+git pus
+git commit -m 'yarn'
+yarn upgrade @hotwired/turbo
+git commit -m 'use proper icon'
+git commit -m 'simple words'
+git commit -m 'fix namespace'
+git commit -m 'acmes'
+git commit -m 'add errors'
+git commit -m 'add belongs to'
+git commit -m 'com'
+cd work/rails/zhifu
+git commit -m 'contrl'
+git commit -m 'changes config'
+git commit -m 'change model name'
+bin/rails g migration create_email_logs
+git commit -m 'rename model name'
+CD ..
+git commit -m 'updae gmfile'
+cd ../zhifu/
+git commit -m '210424'
+cd git status
+git commit -m 'fix index'
+git commit -m 'simple profile'
+git submodule add https://github.com/work-design/rails_med.git rails_med
+git commit -m 'fix menu'
+git commit -m 'smtp 服务'
+git commit -m 'support muilst smtp accounts'
+git commit -m 'smtp'
+bin/rails g scaffold_controller com/admin/smtp_account user_name password
+bin/rails g scaffold_controller com/admin/smtp name address port
+git commit -m 'toggle style'
+git commit -m 'admin smtps'
+git commit -m 'add smpts'
+bin/rails g scaffold_controller com/panel/smtp address port authentication enable_starttls_auto ssl openssl_verify_mode
+git commit -m 'use key value '
+git commit -m 'update routes with namespace;'
+git commit -m 'rename com resources'
+bin/rails g migration add_name_to_smtps
+git commit -m 'rails com'
+rake db:migrata
+bin/rails g migration add_scope_for_com
+git commit -m 'support somebody one'
+git commit -m 'moved i18n to engine'
+cd lansha/
+cd ../jifenzise/
+cd work/engine/rails_role
+git remote add gitee git@gitee.com:work-design/rails_role.git
+scp -rv public/packs ubuntu@work.design:web/work_design/shared/public
+git commit -m 'update reila'
+git commit -m 'update slogon'
+git commit -m 'profileds'
+cd ../rails_profile
+git commit -m 'add nav under my'
+git commit -m 'add member to pipeline'
+bin/rails g migration add_member_to_pipelines
+git commit -m 'pipeline id'
+git commit -m 'add index'
+bin/rails g migration add_name_to_places
+git commit -m 'add places'
+bin/rails g migration add_organ_to_places
+git commit -m 'qqmapp'
+rm priv.key
+git commit -m 'moved some content'
+git commit -m 'select area'
+cd ../rails_med
+git commit -m 'detect place'
+bin/rails g scaffold_controller detect/admin/place area_id detail contact tel
+bin/rails g migration create_detect_places
+bin/rails g migration rename_sample_to_execute_at
+git commit -m 'profile'
+git commit -m 'show member info'
+git commit -m 'rename column
+'
+git commit -m 'move debug info
+'
+git commit -m 'do not use autosave in both side'
+spring top
+git commit -m 'breadcrumb'
+git commit -m 'detect'
+bin/rails g scaffold_controller detect/admin/pipeline pipeline_config sample_at address area
+git commit -m 'import js'
+yarn add jsbarcode
+bin/rails g scaffold_controller detect/admin/detection code id_name id_number remark
+git commit -m 'disabled routes generate'
+git commit -m 'admin pipeline config order'
+git commit -m 'simple style'
+git commit -m 'support position for detection pipeline'
+gits atus
+bin/rails g migration add_position_to_pipelines
+git commit -m 'detect panel'
+]git push
+git commit -m 'auto generate pipeline configs'
+bin/rails g scaffold_controller detect/panel/pipeline_configs name code
+git commit -m 'simple pipeline'
+bin/rails g migration change_namespace_defaults
+rake db:setup
+git commit -m 'logo'
+git remote remove gitee
+cd ../lansha
+git pull gitee master
+git pull gitee
+git commit -m 'moved members show'
+git commit -m 'moved routes'
+git remote add gitee git@gitee.com:qinmingyuan/jifenzise.git
+git commit -m 'move out med related resources'
+git commit -m 'rails med'
+git remote add origin git@github.com:work-design/rails_med.git
+rails plugin new rails_med --full
+rm -rf rails_med
+rails plugin new rails_med
+rails plugin new --help
+git remote add gitee git@gitee.com:work-design/rails_org.git
+git commit -m 'simple member show'
+cd engine/rails_org
+cd lansha
+git commit -m 'move model under namespace'
+cd rails/lansha/
+ssh root@121.43.155.82
+git remote set-url origin git@gitee.com:biogada/lansha.git
+git clone git@gitee.com:qinmingyuan/jifenzise.git lansha
+git commit -m 'rename to common apis'
+cd rails_wechat
+git commit -m 'update typo'
+git commit -m 'temply rename'
+git commit -m 'default true'
+git commit -m 'set smtp'
+ssh ubuntu@jifenzise.com
+brew info openssl
+openssl enc -ciphers | grep sm4
+openssl enc -ciphers | grep sm3
+openssl enc -ciphers | grep sm
+openssl enc -ciphers
+brew upgrade openssl
+openssl ecparam -list_curves | grep SM2
+openssl ecparam -list_curves
+openssl ecparam --list_curves
+openssl ecparam --help
+openssl help ecparam
+openssl ecparam
+openssl --help
+openssl version
+man openssl
+brew list openssl
+brew outdated
+openssl ecparam -genkey -name SM2 -out priv.key
+openssl
+rm -rf public/packs_dev
+rm public/packs_dev
+cd rails/jifenzise/
+cd jife..
+cd ../rails_taxon
+git remote add gitee git@gitee.com:qinmingyuan/zhifu.git
+git commit -m 'support wecaht login'
+./frpc -c ./frpc.ini
+bin/spring stop
+rails routes | grep login
+git commit -m 'suport data url'
+git commit -m 'support direct data url
+'
+git commit -m 'when close remove attribute src'
+bundle exec spring stop
+git commit -m 'updated turbo'
+spring
+git commit -m 'show fotter'
+yarn upgrade @hotwire/turbo
+cd ../meal_design/
+git commit -m 'update layout'
+ssh ubuntu@meal.design
+git remote add gitee git@gitee.com:qinmingyuan/meal_design.git
+git commit -m 'add gemfile'
+git commit -m
+git attus
+git remote add gitee git@gitee.com:work-design/rails_auth.git
+cd work/engine/rails_auth
+cd rails/meal_design/
+ruby -b
+cd meal_design/
+cd work_design
+rbenv uninstall 3.0.0
+rbenv global 3.0.1
+rbenv install 3.0.1
+rbenv install -l
+cd work/engine/
+git remote add gitee git@gitee.com:work-design/rails_growth.git
+git remote add gitee git@gitee.com:work-design/engine.git
+git commit -m '210405'
+git remote add gitee git@gitee.com:work-design/rails_ui.git
+git commit -m 'former'
+git commit -m 'apply postion'
+git commit -m 'visit'
+git commit -m 'text'
+git commit -m 'phone layout'
+cd ../rails_ship
+git commit -m 'for phone'
+git remote add gitee git@gitee.com:work-design/rails_profile.git
+cd rails_profile
+git commit -m 'upgrade wechat'
+git remote add gitee git@gitee.com:work-design/rails_wechat.git
+git remote add gitee git@gitee.com:work-design/work.design.git
+git remote add gitee git@gitee.com:work-design/rails_com.git
+git remote add gitee git@gitee.com:work-design/rails_ship.git
+cd engine/rails_ship
+git commit -m 'product'
+bin/rails credentials:edit --environment production
+bin/rails credentials:show --environment production
+vi production.key
+cd work/rails/work_design/
+git commit -m 'add tenchent helrp'
+git commit -m 'show'
+git commit -m 'save detail with info'
+git commit -m 'auto filter'
+git commit -m 'for update'
+git commit -m 'add logic for update'
+git stjatus
+git commit -m 'support server id'
+git commit -m 'if new record than upload'
+git commit -m 'drivie'
+git commit -m 'moved unused routes'
+rails routes | grep drivers
+git commit -m 'supply table for update'
+git commit -m 'show car list with weui'
+bin/rails g migration add_detail_to_users
+git merge xx
+git branch xx e70106b
+git commit -m 'store'
+git commit -m 'ocr api changes'
+git commit -m 'get api'
+git commit -m 'store entity after create'
+git commit -m 'curd wechat medias'
+cd engine/rails_wechat/
+bin/railss
+rbenv uninstall 2.7.1
+vi config
+cd ruby/default_from
+ssh ubuntu@work-design
+cd api
+rails new api --api
+rails new --help
+gem list rails
+cd ../upyun_rails/
+cd ../alipay2/
+cd rails_detail/
+git commit -m '210312'
+ssh ubuntu@one.work
+psql dummy_development -U joes -W
+psql dummy_development -U joes
+psql -U joes
+psql -U
+psql --help
+psql -u joes
+createuser joes -W
+createuser joes -W xx
+createuser joe
+man createuser
+git commit -m 'test dummuy'
+git commit -m 'user default postgres'
+git commit -m 'test dummy'
+git commit -m 'default user runner'
+git commit -m 'update test dummy'
+git commit -m 'cp config file'
+man cp
+git commit -m 'rename password'
+git add
+git add test/dummy/config/database.yml
+git commit -m 'make as workflows'
+git commit -m 'licen'
+git commit -m 'not as template'
+git commit -m 'commit first'
+git subtree pull --prefix=.github git@github.com:work-design/.github.git
+git subtree
+git help xx
+git commit -m 'start postgresql'
+git clone git@github.com:work-design/.github.git github
+mkdir com
+git commit -m 'navba'
+cd rails_log
+bin/rails db:migrate:status
+cd engine/rails_log
+git rm --cache config/database.yml
+cd ../...
+log
+jekyll build
+git commit -m 'price;
+'
+bundle exec jekyll s
+jekyll s
+cd work-design.github.io/
+git clone git@github.com:work-design/work-design.github.io.git
+cd jekyll
+git commit -m '210207'
+git commit -m 'add th'
+git commit -m 'paid chanel'
+git commit -m 'factory'
+cd engine/rails_factory/
+cd frp/
+git commit -m 'support websocket'
+cd work/rails/jifenzise/
+git commit -m 'support websocket config'
+git commit -m 'support cable'
+vi known_hosts
+ping meal.design
+ping one.work
+ping zs.one.work
+ssh ubuntu@zs.one.work
+git clone git@github.com:yougexiangfa/docs.git
+mkdir doc
+cd handbook/
+ps aux | grep puma
+bin/rails s -b 0.0.0.0
+git commit -m 'add namesapce'
+cd rails_notice
+git commit -m 'add auth namespace'
+git commit -m 'move java to packs
+'
+k
+mv one_work/ work_design
+rm -rf rails_ui
+rm rails_ui
+git submodule sync
+git submodule init rails_ui
+git submodule sync rails_ui
+git remote set-url origin git@github.com:work-design/work.design.git
+cd one_work/
+code frpc.ini
+rm qydev_darwin_amd64
+rm qydev.log
+cd engine/rails_crm
+mv kang jifenzise
+git remote set-url origin git@github.com:yougexiangfa/jifenzise.git
+cd kang
+ping github.com
+git commit -m '201226'
+brew upgrade git
+npm publish
+git commit -m 'moved browers'
+brew update
+npm login
+git commit -m 'gemfile
+'
+git remote set-url origin git@github.com:yougexiangfa/work.design.git
+cd config/
+cd work/rails/meal_design/
+rbenv global 3.0.0
+rbenv install 3.0.0
+git commit -m 'update intention'
+cd rails_interact/
+git clone git@github.com:work-design/handbook.git
+git remote -
+git commit -m '201111'
+git commit -m 'for facilitate'
+git commit -m 'facilitates lists'
+rails routes | grep facilitate_providers
+git commit -m 'add note'
+cd ../rails_finance/
+git commit -m 'no buyer'
+git commit -m 'rails trade'
+cd engine/rails_bench
+git commit -m '201109'
+git commit -m 'fix select member'
+rails routes | grep task_template
+rake routes | grep task_template
+git commit -m 'fixed add task template'
+git commit -m 'migration'
+git commit -m '201108'
+git commit -m 'facilitate'
+git commit -m 'index tbody'
+git commit -m 'column indent'
+git commit -m 'index'
+git commit -m 'simple partial'
+git commit -m 'promote goods'
+git commit -m 'deny.js'
+git commit -m 'promote charge'
+git commit -m 'promote charges'
+git commit -m 'payments'
+git commit -m 'common trade'
+git commit -m 'promote'
+cd..
+cd rails/one_work/
+git commit -m 'new gemfile'
+git commit -m 'new form'
+rake db:migraate
+git commit -m '201104'
+git commit -m 'toggle rule'
+git commit -m 'operate with govern '
+git commit -m '201102'
+git commit -m 'business identifier'
+git commit -m 'move higher'
+git commit -m 'layout'
+git commit -m 'update layouts'
+cd rails/oen
+cd gai
+git commit -m '201030'
+git commit -m 'support remove js'
+git commit -m 'add namespaces'
+cd work/rails/one_work/
+git commit -m 'nav'
+git commit -m '201028'
+git commit -m 'color'
+git commit -m 'other name in stylesheets'
+git commit -m 'add is dark for menu'
+git commit -m 'stylessheets default as paths'
+git clone git@github.com:jgthms/bulma.git
+cd css
+mkdir css
+git commit -m '201027'
+cd rails_notice/
+git commit -m '201026'
+cd rails_auth/
+git commit -m 'simple attribute'
+cd rails rails_profile/
+git commit -m 'inte err'
+git commit -m 'require closure tree first'
+git commit -m 'fix request'
+git commit -m 'moved factory'
+git commit -m 'run migrations'
+git commit -m 'add basic gemfile'
+git remote add origin git@github.com:yougexiangfa/meal.design.git
+cd ../dummy/
+git commit -m 'use new gemfile'
+git commit -m 'move closure tree'
+git commit -m 'use new deploy'
+git commit -m 'moved stage'
+git commit -m '201024'
+git submodule status
+cd rails_edu
+git checkout -t origin/staging
+git pull origin
+git checkout -t origin staging
+git checkout staging
+git commit -m '201023'
+git commit -m 'use simple partial'
+git commit -m 'move unsed code'
+git commit -m 'update scaffold for new partial'
+git commit -m 'clear partial'
+git commit -m 'use index head'
+git commit -m 'use index table'
+git commit -m 'support cacke key'
+ssh webuser@gai.one.work
+git commit -m '201022'
+git commit -m 'move taxon to com'
+git commit -m 'fund'
+git commit -m 'store to store accessor'
+git commit -m 'rename taxon to com'
+git tauts
+git push github
+git commit -m '201021'
+git push -u gitee master
+git remote add gitee git@gitee.com:qinmingyuan/gai.git
+git remote set-url gitee git@gitee.com:qinmingyuan/gai.git
+git commit -m 'update resource to https'
+git commit -m 'default form params'
+git commit -m 'moved'
+chmod +x post-commit
+cd hooks
+cd modules/
+cd .git
+git commit -m 'moved operation'
+gtis tatus
+cd default_
+rake routes | grep panel_root
+rake routes | grep panel
+cd rails/gai
+git submodule help
+cd gail
+git commit -m '201019'
+git commit -m 'no operational'
+git sltauts
+gi tpush
+git commit -m 'rename column'
+git commit -m 'project stage with fund'
+cd oen
+git commit -m 'add taxon'
+git commit -m 'add note for fund income'
+git commit -m 'finance'
+git commit -m '201012'
+git commit -m 'submit'
+cd rails_f
+git commit -m '201011'
+git commit -m 'moved resources'
+git commit -m 'edit budget'
+git commit -m 'project budget'
+git commit -m 'include budget'
+git commit -m 'add budget resources'
+git commit -m 'budget resources'
+git commit -m 'budget seprate'
+git commit -m 'update style'
+git commit -m 'tree view'
+git commit -m 'organ tree view'
+git commit -m 'code style'
+cd rails_taxon
+git commit -m 'span'
+git commit -m 'admin nav'
+git commit -m 'bread crumb for nav'
+cd engine/rails_attend/
+git commit -m 'nav with me'
+git commit -m 'develop'
+git commit -m 'inter member'
+git commit -m '201010'
+git commit -m 'edit'
+git commit -m 'notice'
+git commit -m 'more i18n'
+git commit -m 'event nav'
+git commit -m 'org file'
+git commit -m 'add role'
+git commit -m 'fix err'
+git commit -m 'add as'
+cd rails_or
+git commit -m 'add .keep file'
+git add log/.keep
+git commit -m 'add log'
+cd tmp
+mkdir tmp
+git commit -m 'no more node sass'
+cd rails_wait
+git clone git@github.com:tianjichuangzhan/gai.git
+git commit -m '201006'
+git commit -m '201004'
+cd rails_event
+git checkout rails_event
+git commit -m 'audit'
+git branch -d xx
+git checkout xx
+git branch xx d45eba6
+git commit -m 'me controller'
+cd engine/rails_agency/
+git stuats
+cd rails_detail
+Git status
+git commit -m 'new pg schema'
+cd rails_lo
+cd .。
+cd rails_profiel
+git restore --staged
+cd dummy
+git clone git@github.com:work-design/dummy.git
+scp -rv public/packs ubuntu@one.work:web/one_work/shared/public
+env RAILS_ENV=staging rake webpacker:compile
+env RAILS_ENV=staging rake webpacker:clobber
+bin/rails credentials:show --environment staging
+vi staging.key
+git commit -m 'fix'
+git commit -m 'update rails com'
+git commit -m 'use common name'
+git commit -m 'common name'
+git commit -m 'fix key'
+git commit -m 'use direct path'
+git commit -m 'delete prefix'
+cd work/rails/
+scp t.one.work.pem ubuntu@one.work:/usr/local/nginx/conf/ssl
+scp t.one.work.key ubuntu@one.work:/usr/local/nginx/conf/ssl
+cd downloads
+git commit -m 'disc'
+git commit -m 'raisl com'
+git commit -m 'acme log'
+git commit -m 'one.work'
+git commit -m 'wechat'
+git commit -m 'qrcode'
+git commit -m 'require rqrcode'
+git commit -m 'relate qrcode'
+git commit -m 'depend to qrcode'
+git commit -m 'inte with qrcode'
+git commit -m 'fix current organ'
+git ditt
+git commit -m 'flm terminals'
+git commit -m 'flm termials'
+git commit -m 'flm actitivy'
+git commit -m 'flm terminal'
+git commit -m 'change column to bigint'
+bin/rails g migration change_sn_no_to_biginit
+git commit -m 'flm no int'
+git commit -m 'terminal order by asc'
+git commit -m 'add i18n'
+git commit -m 'fix show'
+cd zhifu/
+git commit -m '交易记录‘
+'
+git commit -m 'right menu'
+git commit -m 'zhifu'
+git commit -m 'navbar'
+git commit -m 'pos 服务助手'
+git commit -m 'menu'
+git commit -m 'add columns'
+git commit -m 'mini program'
+git commit -m 'mini program menu'
+ssh-add -;
+git commit -m 'production'
+cd rails/kang
+ping zhifu.one.work
+git commit -m 'default subdomain is nil'
+git commit -m 'compact'
+git commit -m 'organ'
+ssh ubuntu@follower.weiyilewen.com
+git commit -m '200826'
+bin/rails credentials:edit --environment staging
+git restore --staged Gemfile.lock
+cd work/rails/kang
+git commit -m '200823'
+git commit -m 'time current'
+git clone git@github.com:yougexiangfa/zhifu.git
+ssh ubuntu@42.194.204.223
+git commit -m '200817'
+git commit -m 'err'
+ssh ubuntu@weiyilewen.com
+git commit -m 'inbound email'
+bin/rails g scaffold_controller com/panel/inbound_email
+git commit -m 'fixed table'
+git commit -m 'table layout fixed'
+bin/rails g scaffold_controller com/panel/inbound_emal
+git commit -m 'rails wechat'
+sudo vi hosts
+cd /etc
+vi hosts
+scp -rv public/packs ubuntu@follower.weiyilewen.com:web/kang/shared/public
+scp -rv public/packs ubuntu@follower.weiyilewen.com:web/one_work/shared/public
+git commit -m 'add files'
+cd ../kang
+git commit -m '200813'
+git commit -m 'retry logic'
+git commit -m 'not hack attached?'
+env DEV_WECHAT=true bin/rails s -b 0.0.0.0
+git commit -m 'use persisted'
+git commit -m '200812'
+git commit -m 'member'
+git commit -m 'users'
+git commit -m 'new id'
+git commit -m 'no more wechat user id'
+git commit -m '0->23'
+git commit -m 'use += value'
+git commit -m 'uses'
+git commit -m 'moved special'
+g
+status
+git commit -m '200811'
+git commit -m 'add new model wechat service'
+git commit -m 'moved custom'
+git commit -m 'indent'
+git commit -m 'protect nil err'
+git commit -m 'test new'
+git commit -m 'if rule body'
+git commit -m 'protect nil'
+git commit -m 'support regex'
+git commit -m 'success reply'
+git commit -m 'get auth code'
+git commit -m 'always do extract'
+cd one.work/
+cd rails/one.work/
+git commit -m '200810'
+open .
+cd kang.
+git commit -m 'use form with remote true'
+./qydev_darwin_amd64 -k gdzcw121h1
+git commit -m '200808'
+git commit -m 'wechat subdomain'
+git commit -m 'subdomain'
+git commit -m 'wechat user'
+git commit -m 'wechat register'
+git commit -m 'wechat;
+'
+git commit -m 'use wechat app '
+git restore --worktree Gemfile.lock
+git restore --work-tree Gemfile.lock
+git restore --help
+git update-index --no-assume-unchanged Gemfile.lock
+git update-index --assume-unchanged Gemfile.lock
+git stash drop
+git stash list
+git stash
+git stash --help
+git pull --rebase
+git commit -m '200805'
+git commit -m 'fix some form import'
+git commit -m 'org for offical'
+git commit -m 'revert edit form'
+git commit -m 'admin official in panel page'
+git commit -m 'organ admin?'
+git merge staging
+git commit -m 'organ with member'
+git commit -m 'get member with organ'
+git commit -m 'update org'
+git commit -m 'no more organ grants'
+git commit -m 'no more org tab bar'
+git commit -m 'if current member'
+git commit -m 'no more org tab;'
+git commit -m 'mor'
+git commit -m 'weui cell'
+git restore Gemfile.lock
+git commit -m '200803'
+git commit -m 'support expire seconds'
+cd upyun_rails/
+git commit -m 'invite qrcode'
+git commit -m 'qrcode links'
+env DEV_WECHAT=true bin/rails c
+rake routes | grep invite_qrcode
+git commit -m 'event list'
+git commit -m 'support muiti request types'
+git commit -m 'wechat requests'
+git commit -m 'add more request type'
+git commit -m 'test reply users msg with encrypt'
+git commit -m 'support encrypt method'
+git commit -m 'add link'
+git commit -m 'use simple config'
+git commit -m 'wechat reply ;
+'
+git commit -m 'wechat auto reply'
+git commit -m 'save reply in request model'
+git commit -m 'auto fiteler methods'
+git commit -m 'support qrcode'
+git commit -m 'add request'
+git commit -m 'auto reply'
+git commit -m 'auto generate response'
+git commit -m 'with migrtion'
+git commit -m 'auto to wechat request'
+git commit -m '200731'
+git commit -m 'should has current member'
+git commit -m 'use to i protect'
+cat staging.key
+touch staging.key
+Git pull
+git commit -m '200730'
+git commit -m 'only task template'
+git commit -m 'simpel config'
+git commit -m 'move pipeline & pipele members, just use task template'
+git commit -m 'tab'
+git commit -m 'member js'
+git commit -m 'no remote js load'
+rake routes | grep pipeline_members
+git commit -m 'update in pipeline'
+git commit -m 'moved task master, just use pipeline member'
+bin/rails g migration drop_table_task_masters
+git commit -m ';'
+git checckout .
+./qydev_darwin_amd64 -k 0fo2krydjt
+./qydev_darwin_amd64 -k gu8p3xm2wk
+./qydev_darwin_amd64 --help
+sudo ./qydev_darwin_amd64 --help
+chmod +x ./qydev_darwin_amd64
+git clone git@github.com:qinmingyuan/upyun_rails.git
+rm -rf activestorage_upyun/
+git commit -m '200727'
+git commit -m 'the way to deal verify email'
+bin/rails g mailbox wechat
+bin/rails g mailbox
+ssh ubuntu@o.work.design
+cd activestorage_upyun/
+cd rails_vip
+git commit -m 'received'
+git commit -m 'wechat app'
+git commit -m 'test parse data'
+cd engine
+git commit -m '200724'
+git commit -m 'update wechat'
+git commit -m 'platform api'
+git commit -m 'parsded data callback'
+git commit -m 'parsed after commit'
+git commit -m 'wechat platform'
+git commit -m 'parsed data'
+git commit -m 'parsed content'
+git commit -m 'new app'
+git commit -m 'belongs to plat form'
+git commit -m 'add appid'
+git commit -m 'save appid'
+git remote set-url origin https://github.com/rails/rails.git
+ssh -l
+git commit -m 'static'
+git commit -m 'run mig'
+git remote set-url origin git@github.com:rails/rails.git
+scp ubuntu@o.work.design:/home/ubuntu/web/kang/current/vendor/bundle/ruby/2.7.0/bundler/gems/test.tar.gz ./
+cd ruby
+cd rub
+git clone git@github.com:rails/rails.git
+cd work/ruby
+git commit -m 'moved wrong config'
+git commit -m '200720'
+git commit -m 'no more subdomain nil'
+rake routes | grep home
+rake routes
+brew info vips
+git commit -m 'moved remote true in mobile'
+cd work/engine/rails_wechat/
+brew install vips
+git commit -m 'my index for link'
+git checkout --help
+git restore --staged gemfile.lock
+git commit -m '200718'
+git commit -m 'knowledge id'
+git commit -m 'support member'
+git commit -m 'support avatar in member'
+git commit -m 'update '
+git commit -m 'by config'
+git commit -m 'org tab bar in application'
+rm -rf acme-distributed/
+gem install dnsruby
+bin/acme-distributed -V
+cd acme-distributed/
+git clone git@github.com:qinmingyuan/acme-distributed.git
+git commit -m 'add organ'
+git commit -m 'add organ with member'
+git commit -m 'user without password'
+git commit -m 'enable public'
+git commit -m 'add tab bar to mine users'
+git commit -m '200716'
+git commit -m 'add app;'
+git commit -m 'add layout'
+git commit -m 'temply fix cdn'
+ping o.work.design
+git commit -m 'upstream'
+git commit -m 'test tcp'
+git commit -m 'test upstream'
+git commit -m 'server use tcp'
+cd work/rails/one.work/
+ssh-add ~/.ssh/id_rsa.pub
+chmod u+r id_rsa.pub
+chmod -r id_rsa.pub
+chmod -x id_rsa.pub
+man chmod
+chmod +r id_rsa.pub
+git commit -m 'update path'
+git config --global pull.rebase false
+bin/rails credentials:show --env development
+bin/rails --help
+rake db:schema:load
+git clone git@github.com:qinmingyuan/alipay2.git
+git clone git@github.com:yougexiangfa/one.work.git
+git config pull.rebase false --global
+cd rails_bench/
+cd rails_audit
+cd ../rails_auth/
+cd work/engine/rails_detail
+git restore --staged config/database.yml
+code .gitignore
+touch .gitignore
+brew services list
+brew services start redis
+git clone git@github.com:qinmingyuan/activestorage_upyun.git
+git clone git@github.com:qinmingyuan/omniauth-wechat-oauth2.git
+git clone git@github.com:qinmingyuan/default_where.git
+git clone git@github.com:qinmingyuan/default_form.git
+brew install redis
+mkdir ruby
+mkdir .bundle
+git clone git@github.com:weiyilewen/kang.git
+cd rals
+git clone git@github.com:work-design/engine.git
+rm -rf engine
+rm engine
+ssh-keygen -C 'mingyuan0715@foxmail.com'
+ssh-keygen
+brew info
+git version
+brew install git
+mkdir engine
+mkdir rails
+mkdir work
+brew install yarn
+brew install node
+rbenv global 2.7.1
+rbenv install node
+rbenv install 2.7.1
+git clone https://github.com/rbenv/ruby-build.git
+cd plugins
+mkdir plugins
+cd .rbenv
+brew install rbenv
+defaults read com.apple.finder AppleShowAllFiles
+defaults
+defaults write com.apple.finder AppleShowAllFiles -bool true
+cat config.fish
+cd fish
+ls -al
+mv config .config

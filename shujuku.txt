@@ -1,0 +1,17 @@
+###/bin/python
+insert into
+grant
+update
+create
+delete
+
+
+mysql -u root -p123456
+create table ad(id Varchar(3) not null key;num Long default 33) type=InnoDB charset=utf8;
+insert into ad(id) values(3);
+select num,ad.id from ad where id not null group by num order by num having num>0 limit 1;
+update into ad set num=32 where id='w';
+
+
+
+
